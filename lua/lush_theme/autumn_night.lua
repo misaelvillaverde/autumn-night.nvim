@@ -168,7 +168,7 @@ local theme = lush(function(injected_functions)
 		String({ fg = my_green }), --   A string constant: "this is a string"
 		-- Character      { }, --   A character constant: 'c', '\n'
 		Number({ fg = my_turquoise1 }), --   A number constant: 234, 0xff
-		Boolean({ my_white1 }), --   A boolean constant: TRUE, false
+		Boolean({ fg = my_white1 }), --   A boolean constant: TRUE, false
 		-- Float          { }, --   A floating point constant: 2.3e10
 
 		Identifier({ fg = my_brown }), -- (*) Any variable name
