@@ -309,7 +309,7 @@ local theme = lush(function(injected_functions)
 		-- sym"@debug"             { }, -- Debug
 		-- sym"@tag"               { }, -- Tag
 	}
-end
+end)
 
 -- Return our parsed theme for extension or use elsewhere.
 return theme
